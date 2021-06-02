@@ -5,7 +5,5 @@ int main() {
   int x;
   cin >> x;
   cout << x * x * x << endl;
-  cout << x * x * x << "\n";
-
-
+  return 0;
 }
