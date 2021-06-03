@@ -2,10 +2,8 @@
 using namespace std;
 
 int main() {
-  int a, b, A, S;
+  int a,b;
   cin >> a >> b;
-  A = a * b;
-  S = 2 * (a + b);
-  cout << A << " " << S << endl;
+  cout << a * b << " " << 2 * (a + b) << endl;
   return 0;
 }
