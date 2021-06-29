@@ -3,10 +3,11 @@ using namespace std;
 static const int MAX= 200000;
 
 int main() {
-  int R[MAX], n;
+  int n, R[MAX];
   cin >> n;
-  for(int i = 0; i < n; i ++) cin >> R[i];
-
+  for(int i = 0; i < n; i ++) {
+    cin >> R[i];
+  }
   int maxv = -2000000000;
   int minv = R[0];
 
@@ -15,6 +16,5 @@ int main() {
     minv = min(minv, R[i]);
   }
   cout << maxv << endl;
-  
   return 0;
 }
